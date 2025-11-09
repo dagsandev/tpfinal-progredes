@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using TpFinalProgRedes.Config;
 using TpFinalProgRedes.Servidor;
 using TpFinalProgRedes.Utils;
@@ -10,7 +11,7 @@ namespace TpFinalProgRedes
 {
     internal class ServidorWeb
     {
-
+        private static readonly object ConsolaLock = new object();
         private static string carpetaArchivos;
 
         static void Main(string[] args)
@@ -55,7 +56,7 @@ namespace TpFinalProgRedes
                 // Aceptar conexión (bloquea hasta que llegue un cliente)
                 Socket socketCliente = socketEscucha.Accept();
 
-                Console.WriteLine("Cliente conectado!");
+                Log("ACCEPT", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Cliente conectado", ConsoleColor.Yellow);
 
                 // Crear un thread para atender este cliente
                 Thread hiloCliente = new Thread(() => AtenderCliente(socketCliente));
@@ -66,10 +67,13 @@ namespace TpFinalProgRedes
 
         static void AtenderCliente(Socket cliente)
         {
-            Console.WriteLine($"[Thread {Thread.CurrentThread.ManagedThreadId}] Atendiendo cliente...");
+            Log("THREAD", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Atendiendo cliente...", ConsoleColor.Gray);
 
             try
             {
+                // Configurar timeout de recepción (5 segundos)
+                cliente.ReceiveTimeout = 5000;
+
                 // Obtener IP del cliente
                 IPEndPoint remoteEndPoint = cliente.RemoteEndPoint as IPEndPoint;
                 string ipCliente = remoteEndPoint?.Address.ToString() ?? "Desconocida";
@@ -81,32 +85,36 @@ namespace TpFinalProgRedes
                 // Recibir datos del cliente
                 int bytesRecibidos = cliente.Receive(buffer);
 
+                if (bytesRecibidos == 0)
+                {
+                    Log("WARN", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Cliente {ipCliente} no envió datos, cerrando conexión...", ConsoleColor.Yellow);
+                    return;
+                }
+
                 // Convertir los bytes a string
                 string solicitudHTTP = Encoding.UTF8.GetString(buffer, 0, bytesRecibidos);
 
                 SolicitudHTTP solicitud = ParsearSolicitud(solicitudHTTP);
                 solicitud.IPCliente = ipCliente;
 
-                Console.WriteLine("=== SOLICITUD HTTP RECIBIDA ===");
-                Console.WriteLine($"IP: {solicitud.IPCliente}");
-                Console.WriteLine($"Método: {solicitud.Metodo}");
-                Console.WriteLine($"Ruta: {solicitud.Ruta}");
-                Console.WriteLine($"Query String: {solicitud.QueryString}");
-                Console.WriteLine($"Versión HTTP: {solicitud.VersionHTTP}");                
+                // Loguear query string si existe (Requisito 7)
+                if (!string.IsNullOrEmpty(solicitud.QueryString))
+                {
+                    string salidaFormateadaQueryString = solicitud.QueryString.Replace("&", ", ");
+                    Log("REQ", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Método: {solicitud.Metodo} | Ruta: {solicitud.Ruta} | IP: {solicitud.IPCliente} | Versión HTTP: {solicitud.VersionHTTP} | ParametrosQuery: {salidaFormateadaQueryString}", ConsoleColor.Blue);
+                }
+                else
+                {
+                    Log("REQ", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Método: {solicitud.Metodo} | Ruta: {solicitud.Ruta} | IP: {solicitud.IPCliente} | Versión HTTP: {solicitud.VersionHTTP}", ConsoleColor.Blue);
+                }
 
                 // Si es POST, loguear el body
                 if (solicitud.Metodo == "POST")
                 {
-                    Console.WriteLine($"Datos POST: {solicitud.Body}");
+                    //Console.WriteLine($"Datos POST: {solicitud.Body}");
+                    Log("Body", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Datos POST: {solicitud.Body}", ConsoleColor.Green);
                     Logger.LoguearPost(solicitud.IPCliente, solicitud.Ruta, solicitud.Body);
                 }
-
-                // Loguear query string si existe (Requisito 7)
-                if (!string.IsNullOrEmpty(solicitud.QueryString))
-                {
-                    Console.WriteLine($"Parámetros Query: {solicitud.QueryString}");
-                }
-                Console.WriteLine("================================");
 
                 // Procesar la solicitud y generar respuesta
                 RespuestaHTTP respuesta = ProcesarSolicitud(solicitud);
@@ -123,16 +131,24 @@ namespace TpFinalProgRedes
                 byte[] respuestaBytes = respuesta.ConstruirRespuesta();
                 cliente.Send(respuestaBytes);
 
-                Console.WriteLine($"Respuesta enviada: {respuesta.CodigoEstado} {respuesta.MensajeEstado}");
+                //Console.WriteLine($"Respuesta enviada: {respuesta.CodigoEstado} {respuesta.MensajeEstado}");
+                Log("RESP", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Respuesta enviada: {respuesta.CodigoEstado} {respuesta.MensajeEstado}", ConsoleColor.Green);
+            }
+            catch (SocketException ex)
+            {
+                if (ex.SocketErrorCode == SocketError.TimedOut)
+                    Log("WARN", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Timeout al esperar datos del cliente.", ConsoleColor.Yellow);
+                else
+                    Log("ERROR", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Error de socket: {ex.SocketErrorCode}", ConsoleColor.Red);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Log("ERROR", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Error: {ex.Message}", ConsoleColor.Red);
             }
             finally
             {
                 cliente.Close();
-                Console.WriteLine($"[Thread {Thread.CurrentThread.ManagedThreadId}] Cliente desconectado");
+                Log("END", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Cliente desconectado \n", ConsoleColor.DarkGray);
             }
         }
 
@@ -188,13 +204,16 @@ namespace TpFinalProgRedes
                     respuesta.Cuerpo = contenidoComprimido;
                     respuesta.Encabezados["Content-Encoding"] = "gzip";
 
-                    Console.WriteLine($"Archivo comprimido: {tamañoOriginal} bytes -> {contenidoComprimido.Length} bytes ({(1 - (double)contenidoComprimido.Length / tamañoOriginal) * 100:F1}% reducción)");
+                    Log("RESP", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Archivo comprimido: {tamañoOriginal} → {contenidoComprimido.Length} bytes ({(1 - (double)contenidoComprimido.Length / tamañoOriginal) * 100:F1}% reducción)", ConsoleColor.Green);
+                    //Console.WriteLine($"Archivo comprimido: {tamañoOriginal} bytes -> {contenidoComprimido.Length} bytes ({(1 - (double)contenidoComprimido.Length / tamañoOriginal) * 100:F1}% reducción)");
                 }
                 else
                 {
                     // Sin compresión
                     respuesta.Cuerpo = contenido;
-                    Console.WriteLine("Cliente no soporta compresión, enviando sin comprimir");
+                    Log("ERROR", $"[Thread {Thread.CurrentThread.ManagedThreadId}] Cliente no soporta compresión, enviando sin comprimir", ConsoleColor.Red);
+
+                    //Console.WriteLine("Cliente no soporta compresión, enviando sin comprimir");
                 }
 
                 // Determinar Content-Type según la extensión
@@ -304,6 +323,15 @@ namespace TpFinalProgRedes
 
             return solicitud;
         }
+        private static void Log(string tipo, string mensaje, ConsoleColor color = ConsoleColor.Gray)
+        {
+            lock (ConsolaLock)
+            {
+                Console.ForegroundColor = color;
+                Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] [{tipo}] {mensaje}");
+                Console.ResetColor();
+            }
+        }
     }
 
-}
+    }

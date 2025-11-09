@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TpFinalProgRedes.Web
 {
@@ -19,6 +20,14 @@ namespace TpFinalProgRedes.Web
         public SolicitudHTTP()
         {
             Headers = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        }
+
+        public override string ToString()
+        {
+            var headersString = string.Join(", ", Headers.Select(kvp => $"{kvp.Key}: {kvp.Value}"));
+
+            return $"Metodo: {Metodo}, Ruta: {Ruta}, QueryString: {QueryString}, VersionHttp: {VersionHTTP}, IPCliente: {IPCliente}, \n" +
+                $" Headers={{ {headersString} }}, Body: {Body} ";
         }
     }
 }

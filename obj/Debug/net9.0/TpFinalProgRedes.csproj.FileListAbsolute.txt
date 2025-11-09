@@ -19,3 +19,25 @@ C:\TpFinalProgRedesIfts\TpFinalProgRedes\obj\Debug\net9.0\TpFinalProgRedes.pdb
 C:\TpFinalProgRedesIfts\TpFinalProgRedes\obj\Debug\net9.0\TpFinalProgRedes.genruntimeconfig.cache
 C:\TpFinalProgRedesIfts\TpFinalProgRedes\obj\Debug\net9.0\ref\TpFinalProgRedes.dll
 C:\TpFinalProgRedesIfts\TpFinalProgRedes\bin\Debug\net9.0\config.json
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\TpFinalProgRedes.exe
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\config.json
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\404.html
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\404style.css
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\imagen.png
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\index.html
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\script.js
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\www\styles.css
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\TpFinalProgRedes.deps.json
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\TpFinalProgRedes.runtimeconfig.json
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\TpFinalProgRedes.dll
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\bin\Debug\net9.0\TpFinalProgRedes.pdb
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.GeneratedMSBuildEditorConfig.editorconfig
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.AssemblyInfoInputs.cache
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.AssemblyInfo.cs
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.csproj.CoreCompileInputs.cache
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.sourcelink.json
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.dll
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\refint\TpFinalProgRedes.dll
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.pdb
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\TpFinalProgRedes.genruntimeconfig.cache
+A:\Escritorio\Gabriel\IFTS11-D.S\3er año - ultimo cuatri\programacion-redes\tp-final\tp-final-redes\obj\Debug\net9.0\ref\TpFinalProgRedes.dll

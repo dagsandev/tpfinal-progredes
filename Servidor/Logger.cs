@@ -47,7 +47,6 @@ namespace TpFinalProgRedes.Servidor
                     File.AppendAllText(rutaArchivo, lineaLog.ToString() + Environment.NewLine);
                 }
 
-                Console.WriteLine($"[LOG] {lineaLog}");
             }
             catch (Exception ex)
             {
@@ -73,8 +72,6 @@ namespace TpFinalProgRedes.Servidor
                 {
                     File.AppendAllText(rutaArchivo, lineaLog.ToString() + Environment.NewLine);
                 }
-
-                Console.WriteLine($"[LOG POST] {lineaLog}");
             }
             catch (Exception ex)
             {

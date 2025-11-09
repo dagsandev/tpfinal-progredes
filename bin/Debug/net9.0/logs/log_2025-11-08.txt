@@ -127,3 +127,148 @@
 [2025-11-08 12:34:40] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
 [2025-11-08 12:34:40] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
 [2025-11-08 12:34:40] IP: 127.0.0.1 | Método: GET | Ruta: /favicon.ico | Respuesta: 404
+[2025-11-08 13:36:56] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 13:36:57] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 13:36:57] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 13:36:57] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 13:36:57] IP: 127.0.0.1 | Método: GET | Ruta: /favicon.ico | Respuesta: 404
+[2025-11-08 13:37:07] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 13:37:07] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 13:37:50] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 13:38:51] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405
+[2025-11-08 13:42:26] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 404
+[2025-11-08 13:42:53] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 13:43:33] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 13:43:33] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 13:43:33] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 13:43:33] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 13:43:33] IP: 127.0.0.1 | Método: GET | Ruta: /favicon.ico | Respuesta: 404
+[2025-11-08 13:54:00] IP: 127.0.0.1 | Método: GET | Ruta: /asdadada | Respuesta: 404
+[2025-11-08 13:54:00] IP: 127.0.0.1 | Método: GET | Ruta: /404style.css | Respuesta: 200
+[2025-11-08 13:54:05] IP: 127.0.0.1 | Método: GET | Ruta: /asdadada | Respuesta: 404
+[2025-11-08 13:54:05] IP: 127.0.0.1 | Método: GET | Ruta: /404style.css | Respuesta: 200
+[2025-11-08 13:54:37] IP: 127.0.0.1 | Método: GET | Ruta: /asdadadaxd | Respuesta: 404
+[2025-11-08 13:54:37] IP: 127.0.0.1 | Método: GET | Ruta: /404style.css | Respuesta: 200
+[2025-11-08 13:54:59] IP: 127.0.0.1 | Método: GET | Ruta: /asdadadaxd/a | Respuesta: 404
+[2025-11-08 13:54:59] IP: 127.0.0.1 | Método: GET | Ruta: /asdadadaxd/404style.css | Respuesta: 404
+[2025-11-08 13:56:31] IP: 127.0.0.1 | Método: PUT | Ruta: / | Respuesta: 405
+[2025-11-08 13:56:47] IP: 127.0.0.1 | Método: PATCH | Ruta: /ftyvjv | Respuesta: 405
+[2025-11-08 13:56:58] IP: 127.0.0.1 | POST /ftyvjv | Datos: 
+[2025-11-08 13:56:58] IP: 127.0.0.1 | Método: POST | Ruta: /ftyvjv | Respuesta: 200
+[2025-11-08 13:58:50] IP: 127.0.0.1 | POST /ftyvjv | Datos: [
+    {
+        "var1":"var1rta",
+        "var2":"var2rta",
+        "var3":[
+            {
+                "obj":1,
+                "bool":true,
+                "num":1.1
+            }
+        ]
+    }
+]
+[2025-11-08 13:58:50] IP: 127.0.0.1 | Método: POST | Ruta: /ftyvjv | Respuesta: 200
+[2025-11-08 13:59:54] IP: 127.0.0.1 | POST /ftyvjv | Datos: [
+    {
+        "var1":"var1rta",
+        "var2":"var2rta",
+        "var3":[
+            {
+                "obj":1,
+                "bool":true,
+                "num":1.1
+            }
+        ]
+    }
+]
+[2025-11-08 13:59:54] IP: 127.0.0.1 | Método: POST | Ruta: /ftyvjv | Respuesta: 200
+[2025-11-08 14:01:35] IP: 127.0.0.1 | Método: GET | Ruta: /ftyvjv?hola=1&variable=2 | Respuesta: 404
+[2025-11-08 14:03:04] IP: 127.0.0.1 | Método: GET | Ruta: /?hola=1&variable=2 | Respuesta: 200
+[2025-11-08 14:03:23] IP: 127.0.0.1 | Método: GET | Ruta: /?hola=1&variable=2 | Respuesta: 200
+[2025-11-08 14:03:23] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:03:23] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:03:23] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:04:48] IP: 127.0.0.1 | Método: GET | Ruta: /?hola=1&variable=2 | Respuesta: 200
+[2025-11-08 14:05:02] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405
+[2025-11-08 14:05:03] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:05:03] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:05:16] IP: 127.0.0.1 | Método: GET | Ruta: /?hola=1&variable=2 | Respuesta: 200
+[2025-11-08 14:05:16] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:05:16] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:05:16] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:05:16] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:05:24] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:06:13] IP: 127.0.0.1 | Método: GET | Ruta: /xd | Respuesta: 404
+[2025-11-08 14:06:13] IP: 127.0.0.1 | Método: GET | Ruta: /404style.css | Respuesta: 200
+[2025-11-08 14:06:13] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:06:29] IP: 127.0.0.1 | Método: GET | Ruta: /xd/1 | Respuesta: 404
+[2025-11-08 14:06:30] IP: 127.0.0.1 | Método: GET | Ruta: /xd/404style.css | Respuesta: 404
+[2025-11-08 14:06:30] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:06:31] IP: 127.0.0.1 | Método: GET | Ruta: /xd/1 | Respuesta: 404
+[2025-11-08 14:06:31] IP: 127.0.0.1 | Método: GET | Ruta: /xd/404style.css | Respuesta: 404
+[2025-11-08 14:06:44] IP: 127.0.0.1 | Método: GET | Ruta: /xd/404style.css | Respuesta: 404
+[2025-11-08 14:06:44] IP: 127.0.0.1 | Método: GET | Ruta: /xd/404style.css | Respuesta: 404
+[2025-11-08 14:06:58] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:06:58] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:06:58] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:06:58] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:06:58] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:09:13] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405
+[2025-11-08 14:23:40] IP: 127.0.0.1 | POST / | Datos: [
+    {
+        "var1":"var1rta",
+        "var2":"var2rta",
+        "var3":[
+            {
+                "obj":1,
+                "bool":true,
+                "num":1.1
+            }
+        ]
+    }
+]
+[2025-11-08 14:23:40] IP: 127.0.0.1 | Método: POST | Ruta: / | Respuesta: 200
+[2025-11-08 14:24:15] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:24:44] IP: 127.0.0.1 | Método: GET | Ruta: /asd | Respuesta: 404
+[2025-11-08 14:25:02] IP: 127.0.0.1 | Método: GET | Ruta: /?xd=1 | Respuesta: 200
+[2025-11-08 14:25:13] IP: 127.0.0.1 | Método: GET | Ruta: /hola/xd | Respuesta: 404
+[2025-11-08 14:25:20] IP: 127.0.0.1 | Método: DELETE | Ruta: /hola/xd | Respuesta: 405
+[2025-11-08 14:25:34] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:25:34] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:25:35] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:25:35] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:25:35] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:25:51] IP: 127.0.0.1 | Método: GET | Ruta: /hola | Respuesta: 404
+[2025-11-08 14:25:51] IP: 127.0.0.1 | Método: GET | Ruta: /404style.css | Respuesta: 200
+[2025-11-08 14:25:51] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:26:11] IP: 127.0.0.1 | Método: GET | Ruta: /hola/xd | Respuesta: 404
+[2025-11-08 14:26:11] IP: 127.0.0.1 | Método: GET | Ruta: /hola/404style.css | Respuesta: 404
+[2025-11-08 14:26:11] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:26:22] IP: 127.0.0.1 | Método: GET | Ruta: /hola/xd?hola=xd | Respuesta: 404
+[2025-11-08 14:26:22] IP: 127.0.0.1 | Método: GET | Ruta: /hola/404style.css | Respuesta: 404
+[2025-11-08 14:26:22] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:30:34] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:30:34] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:30:34] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:30:34] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:30:34] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:30:39] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:30:39] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:30:39] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:30:39] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:39:15] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405
+[2025-11-08 14:39:15] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405
+[2025-11-08 14:39:26] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:39:26] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:39:26] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:39:26] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:39:26] IP: 127.0.0.1 | Método: GET | Ruta: /favicon.ico | Respuesta: 404
+[2025-11-08 14:39:30] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:39:30] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:39:38] IP: 127.0.0.1 | Método: GET | Ruta: / | Respuesta: 200
+[2025-11-08 14:39:38] IP: 127.0.0.1 | Método: GET | Ruta: /styles.css | Respuesta: 200
+[2025-11-08 14:39:38] IP: 127.0.0.1 | Método: GET | Ruta: /.well-known/appspecific/com.chrome.devtools.json | Respuesta: 404
+[2025-11-08 14:39:38] IP: 127.0.0.1 | Método: GET | Ruta: /imagen.png | Respuesta: 200
+[2025-11-08 14:39:38] IP: 127.0.0.1 | Método: GET | Ruta: /script.js | Respuesta: 200
+[2025-11-08 14:40:54] IP: 127.0.0.1 | Método:  | Ruta:  | Respuesta: 405

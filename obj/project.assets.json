@@ -8,24 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\santi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Gabriel Romero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TpFinalProgRedesIfts\\TpFinalProgRedes\\TpFinalProgRedes.csproj",
+      "projectUniqueName": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er año - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\TpFinalProgRedes.csproj",
       "projectName": "TpFinalProgRedes",
-      "projectPath": "C:\\TpFinalProgRedesIfts\\TpFinalProgRedes\\TpFinalProgRedes.csproj",
-      "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\TpFinalProgRedesIfts\\TpFinalProgRedes\\obj\\",
+      "projectPath": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er año - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\TpFinalProgRedes.csproj",
+      "packagesPath": "C:\\Users\\Gabriel Romero\\.nuget\\packages\\",
+      "outputPath": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er año - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Gabriel Romero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,8 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Repos\\AxionMobileDriver\\Development\\Axion.SmartConductor\\CustomNuGetPackage": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
