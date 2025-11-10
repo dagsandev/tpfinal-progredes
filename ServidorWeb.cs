@@ -77,6 +77,8 @@ namespace TpFinalProgRedes
                 // Obtener IP del cliente
                 IPEndPoint remoteEndPoint = cliente.RemoteEndPoint as IPEndPoint;
                 string ipCliente = remoteEndPoint?.Address.ToString() ?? "Desconocida";
+                Console.WriteLine(remoteEndPoint);
+                Console.WriteLine(ipCliente);
 
                 // Buffer para recibir datos
                 //byte[] buffer = new byte[4096]; anteriormente solo para GET

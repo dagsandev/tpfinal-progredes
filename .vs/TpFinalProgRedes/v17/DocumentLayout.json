@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\www\\404.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:www\\404.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\servidorweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:servidorweb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\config.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:config.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\servidor\\compresor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:servidor\\compresor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\servidor\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:servidor\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\web\\solicitudhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:web\\solicitudhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\web\\respuestahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:web\\respuestahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\utils\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:utils\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\config.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:config.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\config\\lectorconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:bin\\debug\\net9.0\\logs\\log_2025-11-09.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\web\\respuestahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:web\\respuestahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\servidor\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:servidor\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\web\\solicitudhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:web\\solicitudhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\servidor\\compresor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:servidor\\compresor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\www\\404.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|solutionrelative:www\\404.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5619CFB7-9B28-4483-A5B6-A9A82B96165B}|TpFinalProgRedes.csproj|a:\\escritorio\\gabriel\\ifts11-d.s\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\bin\\debug\\net9.0\\logs\\log_2025-11-08.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "404.html",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\www\\404.html",
               "RelativeDocumentMoniker": "www\\404.html",
@@ -142,20 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "log_2025-11-09.txt",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\bin\\Debug\\net9.0\\logs\\log_2025-11-09.txt",
               "RelativeDocumentMoniker": "bin\\Debug\\net9.0\\logs\\log_2025-11-09.txt",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\bin\\Debug\\net9.0\\logs\\log_2025-11-09.txt",
               "RelativeToolTip": "bin\\Debug\\net9.0\\logs\\log_2025-11-09.txt",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAAAA8BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAACABAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-11-09T13:41:20.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Utilidades.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Utils\\Utilidades.cs",
               "RelativeDocumentMoniker": "Utils\\Utilidades.cs",
@@ -180,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "config.json",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\config.json",
               "RelativeDocumentMoniker": "config.json",
@@ -205,52 +205,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Compresor.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Servidor\\Compresor.cs",
               "RelativeDocumentMoniker": "Servidor\\Compresor.cs",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Servidor\\Compresor.cs",
               "RelativeToolTip": "Servidor\\Compresor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:49:29.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Logger.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Servidor\\Logger.cs",
               "RelativeDocumentMoniker": "Servidor\\Logger.cs",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Servidor\\Logger.cs",
               "RelativeToolTip": "Servidor\\Logger.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:25:13.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LectorConfiguracion.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Config\\LectorConfiguracion.cs",
               "RelativeDocumentMoniker": "Config\\LectorConfiguracion.cs",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Config\\LectorConfiguracion.cs",
               "RelativeToolTip": "Config\\LectorConfiguracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:13:08.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Configuracion.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Config\\Configuracion.cs",
               "RelativeDocumentMoniker": "Config\\Configuracion.cs",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Config\\Configuracion.cs",
               "RelativeToolTip": "Config\\Configuracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T14:12:31.446Z",
               "EditorCaption": ""
@@ -279,20 +279,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "RespuestaHTTP.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Web\\RespuestaHTTP.cs",
               "RelativeDocumentMoniker": "Web\\RespuestaHTTP.cs",
               "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Web\\RespuestaHTTP.cs",
               "RelativeToolTip": "Web\\RespuestaHTTP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T01:52:09.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "SolicitudHTTP.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\Web\\SolicitudHTTP.cs",
               "RelativeDocumentMoniker": "Web\\SolicitudHTTP.cs",
@@ -305,13 +305,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServidorWeb.cs",
               "DocumentMoniker": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\ServidorWeb.cs",
               "RelativeDocumentMoniker": "ServidorWeb.cs",
-              "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\ServidorWeb.cs",
-              "RelativeToolTip": "ServidorWeb.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAwwOIAAAAAAAAAAAAAAA==",
+              "ToolTip": "A:\\Escritorio\\Gabriel\\IFTS11-D.S\\3er a\u00F1o - ultimo cuatri\\programacion-redes\\tp-final\\tp-final-redes\\ServidorWeb.cs*",
+              "RelativeToolTip": "ServidorWeb.cs*",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T01:08:23.633Z",
               "EditorCaption": ""
