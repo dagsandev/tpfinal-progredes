@@ -18,11 +18,9 @@ namespace TpFinalProgRedes.Web
 
         public byte[] ConstruirRespuesta()
         {
-            // Línea de estado: HTTP/1.1 200 OK
             StringBuilder respuesta = new StringBuilder();
             respuesta.AppendLine($"HTTP/1.1 {CodigoEstado} {MensajeEstado}");
 
-            // Encabezados
             foreach (var encabezado in Encabezados)
             {
                 respuesta.AppendLine($"{encabezado.Key}: {encabezado.Value}");
@@ -31,10 +29,8 @@ namespace TpFinalProgRedes.Web
             // Línea en blanco que separa encabezados del cuerpo
             respuesta.AppendLine();
 
-            // Convertir encabezados a bytes
             byte[] encabezadosBytes = Encoding.UTF8.GetBytes(respuesta.ToString());
 
-            // Si hay cuerpo, combinarlo con los encabezados
             if (Cuerpo != null && Cuerpo.Length > 0)
             {
                 byte[] respuestaCompleta = new byte[encabezadosBytes.Length + Cuerpo.Length];

@@ -11,7 +11,6 @@ namespace TpFinalProgRedes.Servidor
 
         static Logger()
         {
-            // Crear carpeta de logs si no existe
             if (!Directory.Exists(carpetaLogs))
             {
                 Directory.CreateDirectory(carpetaLogs);
@@ -22,12 +21,10 @@ namespace TpFinalProgRedes.Servidor
         {
             try
             {
-                // Nombre del archivo basado en la fecha actual
                 string fecha = DateTime.Now.ToString("yyyy-MM-dd");
                 string nombreArchivo = $"log_{fecha}.txt";
                 string rutaArchivo = Path.Combine(carpetaLogs, nombreArchivo);
 
-                // Construir línea de log
                 StringBuilder lineaLog = new StringBuilder();
                 lineaLog.Append($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] ");
                 lineaLog.Append($"IP: {ip} | ");
@@ -41,7 +38,6 @@ namespace TpFinalProgRedes.Servidor
 
                 lineaLog.Append($" | Respuesta: {codigoRespuesta}");
 
-                // Usar lock para evitar problemas de concurrencia al escribir
                 lock (lockObject)
                 {
                     File.AppendAllText(rutaArchivo, lineaLog.ToString() + Environment.NewLine);

@@ -21,7 +21,7 @@ namespace TpFinalProgRedes.Servidor
             catch (Exception ex)
             {
                 Console.WriteLine($"Error al comprimir: {ex.Message}");
-                return datos; // Devolver datos sin comprimir en caso de error
+                return datos; 
             }
         }
 
